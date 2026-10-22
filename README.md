@@ -4,6 +4,12 @@ ReachRich 是面向 A 股市场的研究平台。本仓库提供产品介绍、�
 
 [打开 ReachRich](https://reachrich.ai/) · [了解平台](https://reachrich.ai/about) · [使用手册](https://docs.reachrich.ai/) · [帮助与反馈](https://reachrich.ai/support)
 
+## 研究资料
+
+- [A股回测：交易成本与复权口径](https://reachrich.ai/research/a-share-backtest-costs.html)
+- [A股新闻事件研究：从资讯线索到公司公告](https://reachrich.ai/research/a-share-news-event-study.html)
+- [A股因子验证：识别过拟合与样本外失效](https://reachrich.ai/research/a-share-factor-validation.html)
+
 ## 一份可复核的资料记录
 
 拿到一条行情或一份公司材料时，先记下证券代码、原始来源、数据日期、首次可得时间、价格复权口径和本次研究问题。把事实摘录与自己的判断分开，下一次比较时沿用同一口径。
