@@ -1,68 +1,84 @@
-<p align="center">
-  <a href="https://reachrich.ai/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://reachrich.ai/icons/riqi-dark-180.png">
-      <img src="https://reachrich.ai/icons/riqi-light-180.png" alt="ReachRich" width="64" height="64">
-    </picture>
-  </a>
-</p>
+<a href="https://reachrich.ai/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://reachrich.ai/icons/riqi-dark-180.png">
+    <img align="right" src="https://reachrich.ai/icons/riqi-light-180.png" alt="ReachRich" width="64" height="64">
+  </picture>
+</a>
 
-<h1 align="center">ReachRich</h1>
+# ReachRich
 
-<p align="center">Market and quantitative research for China A-shares</p>
+**Market and quantitative research for China A-shares**
 
-<p align="center">
-  <a href="https://reachrich.ai/"><strong>Open ReachRich</strong></a> ·
-  <a href="https://docs.reachrich.ai/">User guide</a> ·
-  <a href="https://riqi.ai/">RiQi</a> ·
-  <a href="README.md">简体中文</a>
-</p>
+[Open ReachRich](https://reachrich.ai/) · [Documentation](https://docs.reachrich.ai/) · [RiQi](https://riqi.ai/) · [简体中文](README.md)
 
----
-
-ReachRich brings market data, news and screening tools into one research platform for individual researchers and institutional teams. Review the market, build a candidate list and investigate specific companies. [RiQi](https://github.com/reachrich-ai/riqi) is the AI research assistant in the same product family, for discussing materials and following up on research questions.
-
-## Start with a task
-
-| Task | Where to start |
-| :--- | :--- |
-| Review prices and trading volume | [Look up daily bars](https://docs.reachrich.ai/reachrich/daily-k.html) or [switch between daily, weekly and monthly views](https://docs.reachrich.ai/reachrich/weekly-monthly.html) |
-| Investigate a news event | [Search news by source and category](https://docs.reachrich.ai/reachrich/news.html), then check the original report or disclosure |
-| Build a candidate stock list | [Use screening templates](https://docs.reachrich.ai/reachrich/screener.html), record the conditions and compare results |
-| Research a company | [Organize questions and materials](https://docs.reachrich.ai/workflows/company-study.html), then continue the discussion in [RiQi](https://riqi.ai/) |
-
-New to the platform? Start with [your first A-share research task](https://docs.reachrich.ai/start/quickstart.html). The [full user guide](https://docs.reachrich.ai/) covers individual tools and workflows.
-
-<details>
-<summary>View the ReachRich market overview</summary>
-
-<br>
+ReachRich brings market data, news and stock screening into one platform for individual researchers and institutional research teams. Review the market, build a candidate list, then investigate individual companies.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://reachrich.ai/product/reachrich-market-overview.jpg">
-  <img src="https://reachrich.ai/product/reachrich-market-overview-light.jpg" alt="ReachRich market overview showing indices, market breadth and price charts" width="760">
+  <img src="https://reachrich.ai/product/reachrich-market-overview-light.jpg" alt="ReachRich market overview: major indices, market breadth and price charts" width="640">
 </picture>
 
-Historical closing snapshot from the public website, not a live market feed.
+<sub>Market overview using a historical closing snapshot already published on the website.</sub>
 
-</details>
+## The platform
 
-## Research guides
+### Market data
 
-| Guide | Focus |
-| :--- | :--- |
-| [Backtest transaction costs and adjusted prices](https://reachrich.ai/research/a-share-backtest-costs.html) | Compare trading assumptions, costs, price adjustments and out-of-sample results |
-| [From news events to company disclosures](https://reachrich.ai/research/a-share-news-event-study.html) | Align publication and event dates, and trace claims to original materials |
-| [Factor validation, overfitting and out-of-sample tests](https://reachrich.ai/research/a-share-factor-validation.html) | Record parameter trials, separate validation periods and examine sample dependence |
+Review major indices, market breadth and individual stock prices. Switch between daily, weekly and monthly views, and compare price changes with trading volume over the period you are studying.
 
-Research guides explain methods; the user guide covers product operations. See also [company research with RiQi](https://riqi.ai/research/a-share-company-research.html). The linked guides are currently in Chinese.
+[Read a daily chart](https://docs.reachrich.ai/reachrich/daily-k.html) · [Switch chart intervals](https://docs.reachrich.ai/reachrich/weekly-monthly.html)
 
-## Products and support
+### News and events
 
-- **ReachRich**: [Platform overview](https://reachrich.ai/about) and market research tools.
-- **RiQi**: [Product overview](https://reachrich.ai/riqi) and the [conversational research workspace](https://riqi.ai/).
-- **Help**: [Documentation](https://docs.reachrich.ai/) · [Account and feature access](https://docs.reachrich.ai/help/access.html) · [Support](https://reachrich.ai/support).
+Find news by keyword, source and category. Use a report as a research lead, then check dates, amounts and context against company announcements and original documents.
 
-The current focus is mainland China A-shares. Tools and data depend on account permissions; Hong Kong and US equities remain under development.
+[Search news and choose sources](https://docs.reachrich.ai/reachrich/news.html)
 
-This repository contains product information and public guides, not the product's core code or proprietary strategies.
+### Stock screening
+
+Build candidate lists with screening templates. Keep the screening conditions and data date alongside each result, then choose which companies to investigate further. A candidate list is separate from a personal portfolio.
+
+[Use screening templates](https://docs.reachrich.ai/reachrich/screener.html)
+
+### RiQi research assistant
+
+[RiQi](https://github.com/reachrich-ai/riqi) is the conversational research workspace in the ReachRich product family. Discuss a company's business with the relevant documents, question the evidence behind an answer, and add new material to the same conversation.
+
+[About RiQi](https://reachrich.ai/riqi) · [Research a company](https://docs.reachrich.ai/workflows/company-study.html)
+
+## Get started
+
+Start with a company news report:
+
+1. **Find the original information.** Search ReachRich for the report and the related announcement. Record the publication date separately from the event date.
+2. **Review the market context.** Look at the company's price and volume over a relevant period. Use screening tools if you need a comparison group.
+3. **Take a specific question to RiQi.** Provide the documents, company and reporting period. For example, ask how a change in orders could affect delivery and revenue recognition. Follow up on the sources and assumptions in the answer.
+
+See [your first A-share research task](https://docs.reachrich.ai/start/quickstart.html) for the full walkthrough.
+
+## Research notes
+
+### [A-share backtesting: costs and price adjustments](https://reachrich.ai/research/a-share-backtest-costs.html)
+
+Compare backtests by checking price conventions, execution assumptions and turnover definitions before reviewing costs and out-of-sample periods.
+
+### [A-share event research: from news to company announcements](https://reachrich.ai/research/a-share-news-event-study.html)
+
+Turn a news report into a research question: align publication and event dates, check the original disclosure, and record the evidence and what to watch next.
+
+### [Factor validation: overfitting and out-of-sample failure](https://reachrich.ai/research/a-share-factor-validation.html)
+
+Check whether a factor depends on a known sample: record definitions and parameter trials, fix a validation period, and account for costs and execution constraints.
+
+Company research example: [using RiQi for A-share company research](https://riqi.ai/research/a-share-company-research.html).
+
+## Documentation and support
+
+- [Platform overview](https://reachrich.ai/about): how ReachRich and RiQi fit together.
+- [User handbook](https://docs.reachrich.ai/): task-based guides and operating steps.
+- [Account and feature access](https://docs.reachrich.ai/help/access.html): sign-in and available features.
+- [Support](https://reachrich.ai/support): product questions and institutional enquiries.
+
+The current commercial focus is China A-shares. Features and data depend on account permissions; Hong Kong and US markets remain in development. The handbook and research notes linked above are currently in Chinese.
+
+This repository contains product information and public guides, not the core product source, private strategies or credentials.
